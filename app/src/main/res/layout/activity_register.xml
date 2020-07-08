@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A3F51B5"
+    tools:context=".RegisterActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarRegister"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/titleRegister" />
+
+    <View
+        android:id="@+id/registerContainer"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="450dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRegister" />
+
+    <EditText
+        android:id="@+id/newEmail"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:ems="10"
+        android:hint="@string/newEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/registerContainer"
+        app:layout_constraintStart_toStartOf="@+id/registerContainer"
+        app:layout_constraintTop_toTopOf="@+id/registerContainer" />
+
+    <EditText
+        android:id="@+id/newPwd"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="@string/newPwd"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/registerContainer"
+        app:layout_constraintEnd_toEndOf="@+id/registerContainer"
+        app:layout_constraintStart_toStartOf="@+id/registerContainer" />
+
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:background="#1E275C"
+        android:text="@string/btnRegister"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPwd" />
+
+    <Button
+        android:id="@+id/backButtonRegister"
+        android:layout_width="88dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="#1E275C"
+        android:text="@string/btnBack"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarRegister"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarRegister"
+        app:layout_constraintTop_toTopOf="@+id/toolbarRegister" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginBottom="52dp"
+        android:ems="10"
+        android:hint="Answer"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/reg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/securityQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerContainer" />
+
+</android.support.constraint.ConstraintLayout>

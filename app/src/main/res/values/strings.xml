@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Prog4app</string>
+    <string name="emailHint">Email</string>
+    <string name="pwdHint">Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnCreateAcct">Create Account</string>
+    <string name="newEmail">Email</string>
+    <string name="newPwd">Password</string>
+    <string name="btnLogout">Log out</string>
+    <string name="titleHome">Home</string>
+    <string name="titleLogin">Login</string>
+    <string name="btnUpload">Upload</string>
+    <string name="btnDownload">Download</string>
+    <string name="btnBack">Back</string>
+    <string name="titleRegister">Register</string>
+    <string name="titleViewFile">View File</string>
+    <string name="fileTitle">Your Files</string>
+</resources>

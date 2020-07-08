@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "41549403021",
+    "firebase_url": "https://comp-3504-project-the-best-tea.firebaseio.com",
+    "project_id": "comp-3504-project-the-best-tea",
+    "storage_bucket": "comp-3504-project-the-best-tea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41549403021:android:de06f6e6518ab79d92e3c4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41549403021-epk9d95e4ebj4so9kf4blat6s6hj0eaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "0de770123183c6e6b92236e03b098a9d0f2dfd40"
+          }
+        },
+        {
+          "client_id": "41549403021-vd0tghv0mb3nah2rlrtshcn0id8eqlte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "05f6fe2ca608f7551943d223cbb8dbd19a6898e9"
+          }
+        },
+        {
+          "client_id": "41549403021-cv7v63coouqmqt8280oa14ri9cbvg1tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "36220630555619a5475db791d8b43f5a89c5a981"
+          }
+        },
+        {
+          "client_id": "41549403021-fra9ecfsstjtjlg67lgfnusk5k0bj967.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "fbb8e55bd4680564024385bb9adc803d0e5d0fdb"
+          }
+        },
+        {
+          "client_id": "41549403021-8rvre3u3p92qunohspumjgsgsip8gkcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRqQHfOEW8p9jBrmgE7pekjYK6oqvbGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41549403021-8rvre3u3p92qunohspumjgsgsip8gkcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41549403021:android:0e83be89189f981392e3c4",
+        "android_client_info": {
+          "package_name": "com.ostap.prog4app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41549403021-585gefp4ljegov3g7i1q5edba8jonimh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ostap.prog4app",
+            "certificate_hash": "05f6fe2ca608f7551943d223cbb8dbd19a6898e9"
+          }
+        },
+        {
+          "client_id": "41549403021-aaip0iovispjh003ljs52dpi89ce9pdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ostap.prog4app",
+            "certificate_hash": "67c2a2a54ddcc062a44a601f26764e527bc5bd47"
+          }
+        },
+        {
+          "client_id": "41549403021-8rvre3u3p92qunohspumjgsgsip8gkcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRqQHfOEW8p9jBrmgE7pekjYK6oqvbGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41549403021-8rvre3u3p92qunohspumjgsgsip8gkcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
